@@ -15,3 +15,5 @@ jobs:
 
           # Create CML report
           cat metrics.txt
+          cat metrics.txt >> report.md
+          echo '![](./plot.png "Confusion Matrix")' >> report.md
